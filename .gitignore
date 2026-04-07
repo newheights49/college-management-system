@@ -1,0 +1,31 @@
+# --- Secrets & Environment Variables ---
+# NEVER upload your passwords or API keys!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Dependencies ---
+# These are huge folders that can be rebuilt; no need to upload them.
+node_modules/
+jspm_packages/
+package-lock.json (optional, some keep it, some don't)
+
+# --- Python Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# --- Operating System Files ---
+# Junk files created by Mac or Windows
+.DS_Store
+Thumbs.db
+
+# --- Build Folders ---
+# These are created when the app is "finished" for production
+dist/
+build/
+out/
